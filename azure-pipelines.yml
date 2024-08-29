@@ -57,7 +57,7 @@ stages:
     - task: HelmDeploy@0
       inputs:
         connectionType: 'Azure Resource Manager'
-        azureSubscription: 'a04a79d2-07b9-41a8-94f2-1b7234ad14c3'
+        azureSubscription: 'Pay-As-You-Go (a04a79d2-07b9-41a8-94f2-1b7234ad14c3)'
         azureResourceGroup: 'aks-demo'
         kubernetesCluster: 'aks-demo'
         command: 'upgrade'
